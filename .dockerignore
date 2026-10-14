@@ -1,0 +1,5 @@
+.idea/
+config/local/
+.htpasswd
+docker-compose-local.yml
+config/local/odoo.conf

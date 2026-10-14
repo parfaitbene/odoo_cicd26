@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.sequence" id="customer_account_seq">
+			<field name="name">Customer account sequence</field>
+			<field name="code">customer.account.seq</field>
+			<field name="prefix">4111</field>
+			<field name="padding">5</field>
+		</record>
+				
+		<record model="ir.sequence" id="supplier_account_seq">
+			<field name="name">Supplier account sequence</field>
+			<field name="code">supplier.account.seq</field>
+			<field name="prefix">4011</field>
+			<field name="padding">5</field>
+		</record>
+		
+		<record model="ir.sequence" id="budget_imputation">
+			<field name="name">Imputation Budgétaire</field>
+			<field name="code">budget.imputation</field>
+			<field name="prefix">ENG/BUDG/%(year)s/%(month)s/</field>
+			<field name="padding">5</field>
+		</record>
+
+		<record model="ir.sequence" id="product_income_account_seq">
+			<field name="name">Product income account sequence</field>
+			<field name="code">product.income.account.seq</field>
+			<field name="prefix">7011</field>
+			<field name="padding">5</field>
+		</record>
+
+		<record model="ir.sequence" id="product_expense_account_seq">
+			<field name="name">Product expense account sequence</field>
+			<field name="code">product.expense.account.seq</field>
+			<field name="prefix">6011</field>
+			<field name="padding">5</field>
+		</record>
+    </data>
+</odoo>

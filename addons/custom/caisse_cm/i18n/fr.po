@@ -1,0 +1,214 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* caisse_cm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20241004\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 19:21+0000\n"
+"PO-Revision-Date: 2024-11-11 20:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/product.py:0
+msgid "Achat - "
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/res_partner.py:0
+msgid "Aucune séquence de création de compte client trouvée pour %s."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/product.py:0
+msgid "Aucune séquence de création de compte dépense trouvée pour %s."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/res_partner.py:0
+msgid "Aucune séquence de création de compte fournisseur trouvée pour %s."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/product.py:0
+msgid "Aucune séquence de création de compte produit trouvée pour %s."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/res_partner.py:0
+msgid "Ce contact possède déjà un compte client dans le plan comptable."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/product.py:0
+msgid "Ce contact possède déjà un compte de charge dans le plan comptable."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/res_partner.py:0
+msgid "Ce contact possède déjà un compte fournisseur dans le plan comptable."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/product.py:0
+msgid "Ce contact possède déjà un compte produit dans le plan comptable."
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/res_partner.py:0
+msgid "Client - "
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__company_id
+msgid "Company"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__account_id
+msgid "Compte"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model,name:caisse_cm.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.actions.server,name:caisse_cm.caisse_cm_create_customer_account_action_server
+msgid "Créer un compte client"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.actions.server,name:caisse_cm.caisse_cm_create_supplier_account_action_server
+msgid "Créer un compte fournisseur"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/res_partner.py:0
+msgid "Fournisseur - "
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__id
+msgid "ID"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_account_payment__imputation_ref
+msgid "Imputation"
+msgstr ""
+
+#. module: caisse_cm
+#: model_terms:ir.ui.view,arch_db:caisse_cm.view_company_type_operation_tree
+msgid "Information"
+msgstr ""
+
+#. module: caisse_cm
+#: model_terms:ir.ui.view,arch_db:caisse_cm.view_company_type_operation_form
+msgid "Informations Generales"
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/account_payment.py:0
+msgid "Insufficient funds for cash journal \"%s\""
+msgstr "Fonds insuffisants pour le journal de caisse \"%s\""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model.fields,field_description:caisse_cm.field_company_caisse_type_operation__name
+msgid "Libellé"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.model,name:caisse_cm.model_account_payment
+msgid "Payments"
+msgstr "Paiements"
+
+#. module: caisse_cm
+#: model:ir.model,name:caisse_cm.model_product_template
+msgid "Product"
+msgstr "Produit"
+
+#. module: caisse_cm
+#: model:ir.actions.act_window,name:caisse_cm.action_company_type_operation_form
+#: model:ir.model.fields,field_description:caisse_cm.field_account_payment__type_operation_id
+msgid "Type d'opération"
+msgstr ""
+
+#. module: caisse_cm
+#: model:ir.ui.menu,name:caisse_cm.menu_company_type_operation_tree
+msgid "Type d'opération de caisse"
+msgstr ""
+
+#. module: caisse_cm
+#: model_terms:ir.ui.view,arch_db:caisse_cm.view_company_type_operation_form
+msgid "Type opération"
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/product.py:0
+msgid "Vente - "
+msgstr ""
+
+#. module: caisse_cm
+#. odoo-python
+#: code:addons/caisse_cm/models/account_payment.py:0
+msgid ""
+"You can't create a new payment without an outstanding payments/receipts "
+"account set either on the company or the %(payment_method)s payment method "
+"in the %(journal)s journal."
+msgstr ""
+"Vous ne pouvez pas créer un nouveau paiement sans un compte de paiements/"
+"reçus en attente défini soit sur la société, soit sur le mode de paiement "
+"%(payment_method)s dans le journal %(journal)s."
+
+#. module: caisse_cm
+#: model:ir.model,name:caisse_cm.model_company_caisse_type_operation
+msgid "company.caisse.type.operation"
+msgstr ""

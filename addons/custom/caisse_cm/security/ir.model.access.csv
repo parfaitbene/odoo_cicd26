@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+"access_company_caisse_type_operation_manager","company.caisse.type.operation.manager","model_company_caisse_type_operation","account.group_account_invoice",1,1,1,1
+"access_company_caisse_type_operation_user","company.caisse.type.operation.user","model_company_caisse_type_operation","base.group_user",1,0,0,0
