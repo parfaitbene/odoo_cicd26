@@ -12,7 +12,7 @@ services:
       - ../addons/custom:/mnt/extra-addons
     environment:
       - PASSWORD_FILE=/run/secrets/postgresql_password
-      - HOST=odoo.lab.local
+      - HOST=lab-odoo.parfaitbene.com
       - USER=odoo
     secrets:
       - postgresql_password
