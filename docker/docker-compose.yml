@@ -21,4 +21,4 @@ volumes:
   odoo-data:
 secrets:
   postgresql_password:
-  file: ../odoo_pg_pass
+    file: ../odoo_pg_pass
