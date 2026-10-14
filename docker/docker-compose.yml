@@ -3,7 +3,6 @@ services:
     image: odoo:18.0
     container_name: odoo_web
     restart: always
-
     ports:
       - "8069:8069"
       - "8072:8072"
@@ -13,14 +12,13 @@ services:
       - ../addons/custom:/mnt/extra-addons
     environment:
       - PASSWORD_FILE=/run/secrets/postgresql_password
-      - HOST=odoo.centralus.cloudapp.azure.com
+      - HOST=lab-odoo.parfaitbene.com
       - USER=odoo
     secrets:
       - postgresql_password
-      
+    
 volumes:
   odoo-data:
-
 secrets:
   postgresql_password:
-    file: ../odoo_pg_pass
+  file: ../odoo_pg_pass
